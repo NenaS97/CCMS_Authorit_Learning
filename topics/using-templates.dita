@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="templates">
+
+<title>Working With Templates</title>
+
+<conbody>
+<p>In Author-it, templates ensure consistency and reduce the amount of setup work required from authors.</p>
+<ul>
+<li><b>Designer-Created:</b> Templates are created and maintained by Designers. They define all the publishing rules an object should follow.</li>
+<li><b>Author-Friendly:</b> By assigning a template to an object, authors can focus solely on writing content rather than configuring Print/Help/Web properties manually.</li>
+<li><b>Standardization:</b> Templates enforce the organization’s standards by controlling layout, styles, breaks, numbering, and other publishing elements.</li>
+</ul>
+
+<section>
+<title>How Inheritance Works</title>
+<p>Every time an object is created, such as a Topic, and is further based on a template, the object automatically inherits all settings defined in that particular template.</p>
+
+<p><b>Inherited (Read-Only) Properties</b></p>
+<ul>
+<li>These properties are locked because the template sets them.</li>
+<li>They appear in <b>bright blue</b> inside the properties panel.</li>
+<li>Example inherited settings:
+<ul>
+<li>Style set to <b>Auto</b></li>
+<li>Insert a <b>Super Heading</b></li>
+<li>Use a specific <b>Media Object</b></li>
+</ul>
+</li>
+</ul>
+<p>Authors cannot edit these unless the template is changed.</p>
+
+<p><b>Modifiable Properties</b></p>
+<ul>
+<li>If Designers want authors to supply content (e.g., entering a heading or selecting an option), they deliberately <b>leave that field blank</b> in the template.</li>
+<li>These fields appear editable at the object level.</li>
+</ul>
+</section>
+
+<section>
+<title>Power of Global Updates</title>
+<p>Templates act as a global control layer for the entire library.</p>
+
+<ul>
+<li>If a Designer updates the template, for example, changing a Section Break to a Page Break - that change is instantly inherited by every object based on that template.</li>
+<li>No manual cleanup is required.</li>
+<li>This ensures long-term maintainability, consistent formatting, and efficient rollout of publishing standards across all authors and documents.</li>
+</ul>
+
+</section>
+</conbody>
+</concept>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="edit_and_review">
+
+<title>Editing Topics and Headings</title>
+<shortdesc>Learn how to edit topic content, apply formatting, use review tools, and control heading synchronization across different output formats.</shortdesc>
+
+<conbody>
+<section>
+<title>1. Editing Content in Topic Objects</title>
+<p>The <b>Edit Ribbon</b> provides all core formatting and content-editing tools used within a topic object.</p>
+
+<image href="images/img9.png" width="600" height="300" alt="Editing Ribbon in Author-it Interface"/>
+<p outputclass="figure-caption"><i>Figure 9: The Edit and Review functions in Author-it</i></p>
+
+<p>It allows users to:</p>
+<ul>
+<li>Apply paragraph and character styles</li>
+<li>Insert hyperlinks and graphics</li>
+<li>Draw and format tables</li>
+</ul>
+
+<p>These tools function similarly to a traditional word-processing interface.</p>
+
+<p><b>Text and View Controls</b></p>
+<ul>
+<li><b>Zoom:</b> Adjust the zoom level at the bottom of the screen to improve readability.</li>
+<li><b>Change Template:</b> You can reassign a topic’s template at any time through the Templates menu.</li>
+<li><b>Save Regularly:</b> Use the disk icon, Save Topic button, or Ctrl + S.</li>
+</ul>
+
+<p><b>Styles and Formatting</b></p>
+<ul>
+<li><b>Designer-defined styles:</b> The existing paragraph and character styles depend on what the Designer role has configured for the library.</li>
+<li><b>Paragraph styles:</b> Apply to entire paragraphs using the styles dropdown.</li>
+<li><b>Character styles:</b> Apply to selected text for emphasis (e.g., bold, strong)</li>
+</ul>
+</section>
+
+<section>
+<title>2. Working With Tables</title>
+<p>Author-it offers structured table controls to ensure consistency across outputs.</p>
+
+<p><b>Creating Tables</b></p>
+<ul>
+<li>Set the insertion point to Body Text before inserting a table.</li>
+<li>Use the table grid selector to choose the number of rows and columns.</li>
+</ul>
+
+<p><b>Table Layout Ribbon</b></p>
+<p>When a table is selected, a context-sensitive ribbon appears, including options like:</p>
+<ul>
+<li>Resize table width/height</li>
+<li>Apply borders and shading</li>
+<li>Add rows automatically by tabbing out of the last cell</li>
+</ul>
+
+<p><b>Paragraph Marker Requirement</b></p>
+<ul>
+<li>Author-it requires a paragraph marker under every table.</li>
+<li>Designers often apply a “hidden” paragraph style (e.g., 1-pt white text) to prevent odd spacing in final outputs.</li>
+<li>If there is a large paragraph marker, it usually means no style was applied — apply Body Text.</li>
+</ul>
+</section>
+
+<section>
+<title>3. Review and Troubleshooting Tools</title>
+<p>The Review and View ribbons provide essential functions for quality checks and problem resolution.</p>
+
+<p><b>Review Ribbon</b></p>
+<ul>
+<li><b>Spell Check:</b> Run on a single topic or the entire book.</li>
+<li><b>Find/Replace:</b> Standard search tools.</li>
+</ul>
+
+<image href="images/img10.png" width="600" height="300" alt="The View Tab Features in Author-it"/>
+<p outputclass="figure-caption"><i>Figure 10: The components of the View Tab in Author-it</i></p>
+
+<p><b>View Ribbon</b></p>
+<ul>
+<li><b>Ruler:</b> Useful for table spacing and graphic width adjustments.</li>
+<li><b>History &amp; Properties:</b> Shows edit history, object details, relationships.</li>
+<li><b>Locate:</b> Highlights the topic’s location in the folder structure.</li>
+</ul>
+
+<p><b>Details View (Troubleshooting Mode)</b></p>
+<p>This view shows:</p>
+<ul>
+<li>Base template</li>
+<li>Last modified date/user</li>
+<li>Object code, version, release state</li>
+</ul>
+
+<p>It is particularly useful when:</p>
+<ul>
+<li>A topic has the wrong template</li>
+<li>No template is assigned</li>
+</ul>
+<p>Both issues often cause publishing errors. Users can right-click → <b>Apply Template</b> to assign the correct one.</p>
+
+<p><b>View Ribbon</b></p>
+<ul>
+<li><b>Remove:</b> Removes the object from the book only.</li>
+<li><b>Delete:</b> Entirely removes it from the library.</li>
+<li>When an object becomes <b>orphaned</b>, Author-it prompts the user to decide whether to delete it permanently or not.</li>
+</ul>
+
+<p><b>Test Publishing (Best Practice)</b></p>
+<ul>
+<li>Regularly perform small, quick test publications.</li>
+<li>Helps catch template mistakes, style issues, and missing content early.</li>
+<li>Published output may differ from in-library preview because final formatting comes from output templates.</li>
+</ul>
+</section>
+
+<section>
+<title>4. Editing and Synchronizing Topic Headings</title>
+<p>Each topic includes multiple heading fields for different outputs.</p>
+
+<p><b>Description vs. Heading Fields</b></p>
+<ul>
+<li><b>Description field:</b> Internal object name, used only inside the library.</li>
+<li><b>Heading fields:</b> Separate fields for Print, Help, and Web outputs.</li>
+<li>They do <b>not</b> need to match each other or the description.</li>
+</ul>
+
+<p><b>Synchronization Behavior</b></p>
+<ul>
+<li>An asterisk (*) next to the heading in the editor indicates full synchronization - all headings match the description.</li>
+<li>Changing any one heading breaks synchronization.</li>
+</ul>
+
+<p><b>Editing Specific Output Headings</b></p>
+<p>Use the icons for:</p>
+<ul>
+<li>Printer → Print heading</li>
+<li>Monitor → Help heading</li>
+<li>Globe → Web heading</li>
+</ul>
+<p>Each can be customized independently.</p>
+
+<p><b>Synchronization Tools</b></p>
+<p>Easily update headings quickly using:</p>
+<ul>
+<li><b>Synchronize Headings (Print, Help, Web):</b> Makes all output headings identical.</li>
+<li><b>Synchronize All Headings and Description:</b> Makes <i>description + all three headings</i> identical.</li>
+</ul>
+</section>
+
+</conbody>
+</concept>

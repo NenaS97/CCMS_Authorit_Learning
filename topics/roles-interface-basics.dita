@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="roles_interface">
+
+<title>Basics of Author-it Roles and Interface</title>
+<shortdesc>Overview of Author-it user roles, interface components, user preferences, and ribbon structure.</shortdesc>
+
+<conbody>
+
+<section>
+<title>Main Roles in Author-it</title>
+<p>Author-it is built around three distinct user roles, each with its own responsibilities and level of control.</p>
+
+<ol>
+<li><b>Author</b>
+<ul>
+<li><b>Primary Function:</b> To create new content and reuse existing content.</li>
+<li><b>Tools:</b> Uses styles, templates, and structure created by Designers to build and publish documents.</li>
+</ul>
+</li>
+
+<li><b>Designer</b>
+<ul>
+<li><b>Primary Function:</b> To support Authors and ensure design consistency.</li>
+<li><b>Key Responsibilities:</b>
+<ul>
+<li>Acts as the "architect" of the system.</li>
+<li>Creates and manages styles and content templates.</li>
+<li>Sets up and manages publishing templates (output templates).</li>
+<li>Defines relationships between content objects.</li>
+</ul>
+</li>
+<li><b>Goal:</b> To ensure all published documents follow a consistent, standard look and feel.</li>
+</ul>
+</li>
+
+<li><b>Administrator</b>
+<ul>
+<li><b>Primary Function:</b> To support Designers and Authors by managing the backend and security.</li>
+<li><b>Key Responsibilities:</b>
+<ul>
+<li>Manages the database and connectivity.</li>
+<li>Sets up the complete security model.</li>
+<li>Creates and manages users and groups.</li>
+<li>Handles system variables.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+
+<sectiondiv>
+<p><b>Roles, Team Size, and Security</b></p>
+
+<ul>
+<li><b>Team Size:</b>
+<ul>
+<li>In small teams (e.g., 5 people), one person may perform all three roles.</li>
+<li>In large teams (25-50 people), roles are usually specialized.</li>
+</ul>
+</li>
+
+<li><b>Segregation of Roles:</b>
+<ul>
+<li>Best practice is to keep the roles separate, especially Designers/Admins vs. Authors.</li>
+</ul>
+</li>
+
+<li><b>Security Model:</b>
+<ul>
+<li>Administrators have highest-level access and can perform all tasks.</li>
+<li>Avoid giving admin rights to general Authors to prevent unintended changes to standards or security settings.</li>
+</ul>
+</li>
+
+</ul>
+</sectiondiv>
+</section>
+
+<section>
+<title>Exploring the Author-it Interface</title>
+<p>The Author-it interface is consistent across production and test libraries. It is composed of six main components.</p>
+
+<image href="images/img1.png" width="600" height="300" alt="Author-it Interface Components"/>
+<p outputclass="figure-caption"><i>Figure 1: The six main components of the Author-it interface</i></p>
+
+<ol>
+<li><b>Author-it Icon (“Big A”)</b>
+<ul>
+<li>Located top-left, similar to the Microsoft Office button.</li>
+<li>Opens application settings and other options.</li>
+</ul>
+</li>
+
+<li><b>Ribbon View</b>
+<ul>
+<li>Displays functions and tools available in the library.</li>
+<li>Many ribbon features are also accessible via right-click shortcuts.</li>
+</ul>
+</li>
+
+<li><b>Folder Pane</b>
+<ul>
+<li>Located on the left.</li>
+<li>Used to organize objects within the library.</li>
+</ul>
+</li>
+
+<li><b>Additional Panes</b>
+<ul>
+<li>Located below the folder pane.</li>
+<li>Includes the Search Pane and Publishing Pane for content and output management.</li>
+</ul>
+</li>
+
+<li><b>Object List</b>
+<ul>
+<li>Central area.</li>
+<li>Displays objects contained in the selected folder.</li>
+</ul>
+</li>
+
+<li><b>Preview Area</b>
+<ul>
+<li>Located at the bottom.</li>
+<li>Shows a quick preview of the selected object.</li>
+<li>Dynamically switches based on Print, Help, and Web tabs.</li>
+</ul>
+</li>
+</ol>
+</section>
+
+<section>
+<title>Customizing Author-it Options</title>
+<p>This section covers user roles, permissions, and key settings to optimize the workspace before authoring content.</p>
+
+<p><b>Launching Author-it and Logging In</b></p>
+<ul>
+<li>Launch using desktop icon or Start menu.</li>
+<li>System prompts the library/database upon launch.</li>
+<li>Log in with a specific user account.</li>
+<li><b>Supervisor user</b> is the default admin with full rights.</li>
+</ul>
+
+<p><b>User Security</b></p>
+<ul>
+<li>Permissions depend on the user’s security group.</li>
+<li>It determines number of available actions in the interface.</li>
+</ul>
+
+<p><b>Author-it Options</b></p>
+<p>This is the first place a new user should configure settings.</p>
+
+<ol>
+<li><b>Accessing Options</b>
+<ul>
+<li>Click the Big A icon → select Author-it Options.</li>
+</ul>
+</li>
+<li><b>User-Specific Settings</b>
+<ul>
+<li>These apply only to the logged-in user, not the team.</li>
+</ul>
+</li>
+<li><b>General Settings</b>
+<ul>
+<li>Measurement units (inches, cm).</li>
+<li>Paste picture format (e.g., PNG recommended).</li>
+</ul>
+</li>
+<li><b>Publishing Preferences</b>
+<ul>
+<li>Set default directory for output files (local or network location).</li>
+</ul>
+</li>
+<li><b>Additional Tabs (Licensed Modules)</b>
+<ul>
+<li>Author-it eXtends: Suggests reusable content while typing.</li>
+<li>AcroCheck: Plug-in requiring extra license and training.</li>
+</ul>
+</li>
+</ol>
+</section>
+
+<section>
+<title>Exploring the Ribbons</title>
+
+<p>The ribbon layout aligns with the three core Author-it roles:</p>
+
+<image href="images/img2.png" width="600" height="300" alt="Author-it Ribbon Layout"/>
+<p outputclass="figure-caption"><i>Figure 2: A view of the ribbon layout in Author-it</i></p>
+
+<ul>
+<li><b>Author:</b> Tools for creating and editing content.</li>
+<li><b>Design:</b> Tools for templates, styles, and higher-level structure.</li>
+<li><b>Manage:</b> Administrative tools for system configuration.</li>
+</ul>
+
+<p>The other functional ribbons include:</p>
+<ul>
+<li><b>Import:</b> Provides import options for formats like Word, FrameMaker, etc.</li>
+<li><b>Publishing:</b> Shows formats for publishing a document. Only available when a Book object is selected.</li>
+</ul>
+
+<note>Double-clicking the ribbon collapses/expands it to maximize workspace.</note>
+
+</section>
+</conbody>
+</concept>

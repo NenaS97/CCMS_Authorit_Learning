@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="folder">
+
+<title>Folder Structure Overview</title>
+<shortdesc>Learn how content is organized in the Author-it Library using folders. This section explains folder types, their purpose, and best practices for managing objects.</shortdesc>
+
+<conbody>
+<p>Folders help authors and designers organize content within the library.</p>
+<ul>
+<li>Names and hierarchy are fully customizable.</li>
+<li>Users can create as many folders as their team requires.</li>
+<li>The structure can evolve over time without disrupting existing relationships.</li>
+</ul>
+
+<section>
+<title>Recommended Folder Structure</title>
+<p>Author-it follows a three-tier folder organization model. Each tier supports different workflows and security needs.</p>
+
+<image href="images/img5.png" width="600" height="300" alt="Recommended Folder Structure"/>
+<p outputclass="figure-caption"><i>Figure 5: Quick view of the folder structure model</i></p>
+
+<ol>
+<li><b>Shared Folders (Common Content)</b>
+<p>Used for reusable objects that appear across many documents.</p>
+<p><b>Examples:</b></p>
+<ul>
+<li>Title pages</li>
+<li>Tables of contents</li>
+<li>Copyright notices</li>
+<li>Disclaimers</li>
+<li>Logos</li>
+<li>Common hyperlinks</li>
+</ul>
+<p><b>Security:</b> Typically open. Authors can add, update, or reuse objects freely.</p>
+</li>
+
+<li><b>Working Folders</b>
+<p>The main space where authors perform daily work.</p>
+<ul>
+<li>Stores books and topics under development.</li>
+<li>Can be organized by:
+<ul>
+<li>Department (e.g., HR, Technical Publications)</li>
+<li>Product (e.g., X1000, X2000)</li>
+<li>Document type (e.g., User Guide, Admin Guide)</li>
+</ul>
+</li>
+</ul>
+<p><b>Flexibility:</b> Folders can be renamed or reorganized at any time without affecting book relationships.</p>
+</li>
+
+<li><b>Restricted Folders (Standards Area)</b>
+<p>Controlled space for designers and administrators.</p>
+<p>Contains objects that enforce consistency:</p>
+<ul>
+<li>Templates</li>
+<li>Media objects (page layout controls)</li>
+<li>Publishing profiles</li>
+<li>Styles</li>
+</ul>
+<p><b>Security:</b> Read-only for authors. Only designers/admins can modify or delete content.</p>
+</li>
+</ol>
+</section>
+
+<section>
+<title>Working with Folders in the Library Interface</title>
+
+<image href="images/img6.png" width="600" height="300" alt="How To Create New Folders"/>
+<p outputclass="figure-caption"><i>Figure 6: A visual guide to create a new folder</i></p>
+
+<p><b>Creating Folders</b></p>
+<ul>
+<li>Navigate to the left panel and select the open folder.</li>
+<li>Right-click → <b>New Folder</b>, or</li>
+<li>Use the <b>Manage Ribbon</b>.</li>
+</ul>
+<p><b>Moving Objects Between Folders</b></p>
+<ul>
+<li>Drag and drop objects to change their “home address.”</li>
+<li>Moving an object does not break its connection to books.</li>
+</ul>
+<p><b>Creating Objects Inside a Folder</b></p>
+<ul>
+<li>The folder selected in the Folders Pane becomes the object's home.</li>
+<li>If the object was created in the wrong folder, simply drag it to the correct one.</li>
+</ul>
+
+<note>
+<p><i>“When in doubt, click and drag.”</i></p>
+<p>Drag-and-drop is the most reliable method for organizing content throughout the library.</p>
+</note>
+
+</section>
+</conbody>
+</concept>

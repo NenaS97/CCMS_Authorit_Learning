@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="searching_content">
+
+<title>Searching and Relationships</title>
+<shortdesc>Learn how to locate content in the Author-it library using the Search Pane and how to analyze object reuse through the Show Relationships report.</shortdesc>
+
+<conbody>
+<section>
+<title>Overview</title>
+<p>The Search Pane and Relationships view helps find objects in the library and understand where they are being reused. These tools are essential for impact assessment, troubleshooting, and working efficiently in a modular CCMS environment.</p>
+
+<image href="images/img11.png" width="600" height="300" alt="Author-it Search Components"/>
+<p outputclass="figure-caption"><i>Figure 11: A visual guide to understand the search and relationships functions in Author-it</i></p>
+
+</section>
+
+<section>
+<title>How to Search for Content</title>
+<ol>
+<li><b>Search by Text</b>
+<p>Use this method to find objects that contain specific words or phrases.</p>
+<p><b>Steps:</b></p>
+<ol>
+<li>Open the Search Pane.</li>
+<li>Enter a keyword or phrase into the Containing Text field.</li>
+<li>Use Boolean operators if needed:
+<ul>
+<li><p><codeph>AND</codeph> (finds results containing both terms)</p></li>
+<li><p><codeph>OR</codeph> (either term)</p></li>
+<li><p><codeph>NOT</codeph> (exclude a term)</p></li>
+</ul>
+</li>
+<li>Press <b>Enter</b> or select <b>Find Now</b>.</li>
+</ol>
+<p><b>Result:</b> A list of all objects containing the specified text appears in the results area.</p>
+</li>
+
+<li><b>Search by Object Code</b>
+<p>Use this to locate a specific object quickly.</p>
+<p><b>Steps:</b></p>
+<ol>
+<li>In the Search Pane, choose <b>Object Code</b>.</li>
+<li>Enter the object’s unique identifier.</li>
+<li>Select <b>Find Now</b>.</li>
+</ol>
+<p><b>Result:</b> The exact object matching the code is displayed, making it easy for team members to reference and locate content consistently.</p>
+</li>
+
+<li><b>Search by Template</b>
+<p>Search based on the object template assigned during creation.</p>
+<p><b>Steps:</b></p>
+<ol>
+<li>Open the Search Pane.</li>
+<li>Select <b>Template</b> as the filter.</li>
+<li>Choose a template (for example, <i>Chapter, Topic, Graphic</i>).</li>
+<li>Select <b>Find Now</b>.</li>
+</ol>
+<p><b>Result:</b> Displays all objects created from that template - useful for identifying which content will be affected when a template is updated.</p>
+</li>
+</ol>
+</section>
+
+<section>
+<title>Viewing Object Relationships</title>
+<p>Use this feature to understand where an object is used across the library.</p>
+<p><b>Steps:</b></p>
+<ol>
+<li>Right-click any object in the Library.</li>
+<li>Select <b>Show Relationships</b> or choose the <b>Relationships</b> icon in the Author Ribbon.</li>
+<li>Review the generated report.</li>
+</ol>
+<p><b>Result:</b> All related books, topics, and other objects that reference the selected object appear in the panel.</p>
+<p><b>Why it matters:</b></p>
+<ul>
+<li>Shows who depends on the object.</li>
+<li>Helps evaluate the <b>impact of changes</b> (e.g., editing, replacing, or deleting the object).</li>
+<li>Prevents accidental disruptions in multiple publications.</li>
+</ul>
+</section>
+
+</conbody>
+</concept>

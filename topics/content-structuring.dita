@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="content_structure">
+
+<title>Content Structure and Reuse</title>
+<shortdesc>Learn how to structure books, create topics, and reuse content. This section will cover assembling a book, organizing content hierarchy, and referencing reusable objects.</shortdesc>
+
+<conbody>
+<p>Before beginning, please ensure users have access to an Author-it Library and appropriate permissions to create books and topics.</p>
+
+<section>
+<title>1. Create New Book For Publication</title>
+
+<image href="images/img7.png" width="600" height="300" alt="How To Create New Books"/>
+<p outputclass="figure-caption"><i>Figure 7: A visual guide to create a new book</i></p>
+
+<ol>
+<li>Go to the <b>Author</b> ribbon and create a new Book using an appropriate <i>Book Template (e.g., User Manual)</i>.</li>
+<li>Review any default objects the template may add automatically.</li>
+<li>Save the Book in the appropriate working folder.</li>
+</ol>
+
+<p>A <b>Book Object</b> acts as the <i>publication container</i>. It determines structure, sequence, and output settings. It does not store content, only references it.</p>
+</section>
+
+<section>
+<title>2. Add Content To Books</title>
+
+<ol>
+<li>In the Book's contents area, use drag-and-drop to add:
+<ul>
+<li>Topic objects</li>
+<li>Graphic/File objects</li>
+<li>Other Book objects (for bundles or reusable packages)</li>
+</ul>
+</li>
+<li>Add objects from any folder or from search results.</li>
+<li>Save the Book after assembling the components.</li>
+</ol>
+
+<p>Dragging one Book inside another helps you reuse structured sections across multiple deliverables.</p>
+</section>
+
+<section>
+<title>3. Define Object Sequence</title>
+
+<ol>
+<li>Select an object inside the Book.</li>
+<li>Use <b>drag-and-drop</b>, or the <b>Up/Down</b> arrows to rearrange order.</li>
+<li>Confirm that the sequence reflects the expected reading flow of the published output.</li>
+</ol>
+
+<p><b>Why this matters?</b></p>
+<p>The sequence directly controls the order of content in the published document.</p>
+</section>
+
+<section>
+<title>4. Set Object Hierarchy Levels</title>
+
+<ol>
+<li>Select an object inside the Book.</li>
+<li>Use the <b>Promote (left arrow)</b> or <b>Demote (right arrow)</b> options to assign heading levels.</li>
+<li>Verify:
+<ul>
+<li>Level 1 → Heading 1</li>
+<li>Level 2 → Heading 2</li>
+<li>Level 3 → Heading 3, etc</li>
+</ul>
+</li>
+</ol>
+
+<p><b>Impact:</b></p>
+<ul>
+<li>The <b>TOC structure</b> mirrors the assigned hierarchy.</li>
+<li>The hierarchy enables <b>true single-sourcing</b> because a topic can adapt its heading level depending on where it’s reused.</li>
+</ul>
+</section>
+
+<section>
+<title>5. Create New Topics</title>
+
+<p>Creating Topic objects can be done in two ways:</p>
+<p><b>Option A - Create from the Author Ribbon</b></p>
+<ol>
+<li>Open the folder where the new Topic should be stored.</li>
+<li>Choose <b>Author → Topic</b>, select a template, and save it.</li>
+<li>Drag the Topic into your Book.</li>
+</ol>
+
+<note>This option is easy to forget, authors often miss adding the topic into the Book.</note>
+
+<image href="images/img8.png" width="600" height="300" alt="Internal Book Topic Features"/>
+<p outputclass="figure-caption"><i>Figure 8: Internal view of book and its topic-based features</i></p>
+
+<p><b>Option B (Recommended) - Create from inside the Book</b></p>
+<ol>
+<li>Open a Book in the Book Editor view.</li>
+<li>Select the object that should precede the new Topic.</li>
+<li>Click <b>New Topic</b> in the Book toolbar.</li>
+<li>The Topic is created directly in the Book and saved in the currently selected folder.</li>
+</ol>
+
+<p><b>Why this is better?</b></p>
+<p>It eliminates the risk of creating a Topic but forgetting to insert it into the Book.</p>
+</section>
+
+<section>
+<title>6. Reuse Existing Objects</title>
+
+<ol>
+<li>When needing a Topic, Graphic, or Book that already exists, drag it into the new Book instead of copying.</li>
+<li>Edit the object from any location if needed - changes automatically update everywhere it's reused.</li>
+</ol>
+
+<p><b>Key idea:</b></p>
+<p>A Book only <b>references</b> objects. The object’s “home folder” location does not affect its use in any Book.</p>
+</section>
+
+<section>
+<title>7. Results</title>
+
+<ol>
+<li>A Book is structured with the correct order and hierarchy.</li>
+<li>Topics are small, reusable, and referenced from their home folder.</li>
+<li>Content reuse is enabled across multiple publications without duplication.</li>
+</ol>
+</section>
+
+<section>
+<title>8. Best Practices</title>
+
+<ol>
+<li>Keep topics <b>small</b> (1–2 paragraphs) for maximum reusability.</li>
+<li>If a problem arises with the new <b>heading or subheading</b>, create a new Topic instead of making a long object.</li>
+<li>Add graphics, tables, and hyperlinks as needed.</li>
+</ol>
+
+<p><b>Important:</b></p>
+<p>Author-it is not <b>WYSIWYG</b>. A Topic may not look like the final output. Styles and layout are applied only during publishing.</p>
+
+</section>
+
+<section>
+<title>9. Additional Notes</title>
+
+<ol>
+<li>Moving a Topic between folders does not break its relationship inside a Book.</li>
+<li>Changing a Topic that is reused across multiple books affects all books.</li>
+<li>Single-sourcing and reference-based assembly form the core of Author-it’s reuse model.</li>
+</ol>
+</section>
+
+</conbody>
+</concept>

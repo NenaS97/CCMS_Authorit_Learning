@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="help">
+
+<title>Help and Support Resources</title>
+<shortdesc>Key resources available to assist authors, designers, and administrators while working in Author-it.</shortdesc>
+
+<refbody>
+<section>
+<title>Author-it Knowledge Center</title>
+<p>The Author-it Knowledge Center is the primary source of information for all Author-it products, modules, release notes, and troubleshooting guidance.</p>
+
+<p>Users can reach the Knowledge Center in two ways:</p>
+
+<table frame="all" rowsep="1" colsep="1">
+<tgroup cols="3">
+<colspec colname="c1" colwidth="20%"/>
+<colspec colname="c2" colwidth="40%"/>
+<colspec colname="c3" colwidth="40%"/>
+<thead>
+<row>
+<entry>Access</entry>
+<entry>Description</entry>
+<entry>When to Use</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Help Icon → Knowledge Center</entry>
+<entry>Opens the online Knowledge Center directly from the Author-it interface.</entry>
+<entry>For immediate assistance.</entry>
+</row>
+
+<row>
+<entry>Direct URL: <xref href="https://kc.author-it.com" scope="external">kc.author-it.com</xref></entry>
+<entry>Opens the Knowledge Center in a browser without starting the Author-it client.</entry>
+<entry>For regular use.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<p><b> Knowledge Center Contents</b></p>
+<p>The Knowledge Center includes extensive documentation, such as:</p>
+
+<image href="images/img14.png" width="600" height="300" alt="Author-it Knowledge Center"/>
+<p outputclass="figure-caption"><i>Figure 14: How to visit the Knowledge Center for help</i></p>
+
+<ul>
+<li>Help topics for every Author-it module (including those not installed in a new environment)</li>
+<li>Release notes and version changes</li>
+<li>Troubleshooting articles</li>
+<li>FAQs and how-to-guides</li>
+<li>Software licensing details</li>
+<li>Information on public training</li>
+</ul>
+
+<p><b>Search Features</b></p>
+<p>The search bar accepts keywords, filters, and module-specific narrowing to help find relevant articles.</p>
+<p>Technical support teams frequently share direct links from the Knowledge Center, making it the best place to search before opening a support ticket.</p>
+</section>
+
+
+<section>
+<title>Additional Support Options</title>
+<p>If the Knowledge Center does not address an issue, users may contact Author-it Technical Support through the organization’s support plan or portal. Support representatives commonly refer to Knowledge Center articles, so reviewing them first may resolve the issue immediately.</p>
+</section>
+
+</refbody>
+</reference>

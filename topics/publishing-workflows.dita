@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="publishing">
+
+<title>Publishing Outputs</title>
+<shortdesc>This section explains how Author-it manages multi-format publishing through Print, Help, and Web output categories, and how the Publishing Pane can be used to publish multiple books in a batch.</shortdesc>
+
+<conbody>
+<section>
+<title>Understanding Output Categories (Print, Help, Web)</title>
+<p>Every object in Author-it contains three dedicated tabs - <b>Print, Help, and Web</b>, that determine how that object behaves when published to different output formats. These tabs are central to Author-it’s single-sourcing model.</p>
+
+<image href="images/img12.png" width="600" height="300" alt="Types of Output"/>
+<p outputclass="figure-caption"><i>Figure 12: The three main output categories in Author-it</i></p>
+
+<sectiondiv>
+<p><b>Print Tab</b></p>
+<p>Used when publishing to:</p>
+<ul>
+<li>Microsoft Word</li>
+<li>PDF</li>
+</ul>
+<p>Key properties managed here include:</p>
+<ul>
+<li>Assigned heading style</li>
+<li>Chapter start rules or section breaks</li>
+<li>Assigned Media Object controlling page layout</li>
+</ul>
+<p>These settings determine how the content will appear in printed or PDF-based publications.</p>
+</sectiondiv>
+
+<sectiondiv>
+<p><b>Help Tab</b></p>
+<p>Used for electronic help systems.</p>
+<p>This tab manages properties specific to Help outputs, such as:</p>
+<ul>
+<li><b>Context Strings</b></li>
+<li><b>Context IDs</b></li>
+</ul>
+<p>These are required for context-sensitive help but do not affect print or web output.</p>
+</sectiondiv>
+
+<sectiondiv>
+<p><b>Web Tab</b></p>
+<p>Used for:</p>
+<ul>
+<li>HTML</li>
+<li>XHTML</li>
+<li>Other web-based formats</li>
+</ul>
+<p>This tab includes properties required for web rendering and navigation.</p>
+</sectiondiv>
+
+<sectiondiv>
+<p><b>How Single-Sourcing Works</b></p>
+<p>Author-it allows a <i>single content object</i> to be published in multiple formats with different publishing rules applied automatically:</p>
+<ul>
+<li><b>Output Checkboxes</b> determine whether the object is eligible for Print, Help, or Web publishing.</li>
+<li>During publishing, Author-it reads the corresponding tab (Print/Help/Web) and applies its properties to generate the correct formatted output.</li>
+</ul>
+<p>This lets users reuse the same Topic or Book object across all outputs without duplicating content.</p>
+</sectiondiv>
+</section>
+
+<section>
+<title>Publishing Pane (Batch Publishing)</title>
+<p>The <b>Publishing Pane</b> provides a more flexible and powerful way to publish content compared to the Publishing Ribbon.</p>
+
+<image href="images/img13.png" width="600" height="300" alt="How Batch Publishing Works"/>
+<p outputclass="figure-caption"><i>Figure 13: A visual guide on how to publish multiple books at the same time</i></p>
+
+<p><b>Purpose and Key Difference</b></p>
+<ul>
+<li>The <b>Publishing Ribbon</b> can publish only one book at a time.</li>
+<li>The <b>Publishing Pane</b> can publish <b>multiple books sequentially</b> by assembling them into a batch.</li>
+</ul>
+<p><b>Creating a Publishing Batch</b></p>
+<ol>
+<li>Select the desired output format (e.g., PDF, HTML).</li>
+<li>Choose the books for publishing.</li>
+<li>Click <b>Add to Batch</b> for each book.</li>
+<li>Once all books are added, click <b>Submit Batch</b> to publish them one after another.</li>
+</ol>
+<p>This is particularly useful when:</p>
+<ul>
+<li>Publishing multiple versions of documentation,</li>
+<li>Preparing outputs for multiple products,</li>
+<li>Or managing larger publication cycles.</li>
+</ul>
+<p><b>Additional Features</b></p>
+<p>The Publishing Pane may display optional sections related to:</p>
+<ul>
+<li>Tasks</li>
+<li>Projects</li>
+</ul>
+<p>These belong to the <b>Project Manager</b> module (a separately purchased add-on).
+If an environment doesn’t use this module, these sections can be disabled.</p>
+</section>
+</conbody>
+</concept>

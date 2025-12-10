@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ccms-authorit-learning">
+
+<title>Table of Content</title>
+
+<topicref href="topics/roles-interface-basics.dita" navtitle="Basics" locktitle="yes"/>
+<topicref href="topics/library-and-objects.dita" navtitle="Library" locktitle="yes"/>
+<topicref href="topics/folder-structure.dita" navtitle="Folders" locktitle="yes"/>
+<topicref href="topics/content-structuring.dita" navtitle="Content" locktitle="yes"/>
+<topicref href="topics/editing-and-review.dita" navtitle="Editing" locktitle="yes"/>
+<topicref href="topics/searching-content.dita" navtitle="Searching" locktitle="yes"/>
+<topicref href="topics/publishing-workflows.dita" navtitle="Publishing" locktitle="yes"/>
+<topicref href="topics/using-templates.dita" navtitle="Templates" locktitle="yes"/>
+<topicref href="topics/getting-help.dita" navtitle="Help" locktitle="yes"/>
+
+</map>

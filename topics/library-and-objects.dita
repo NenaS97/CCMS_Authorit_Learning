@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="library_objects">
+
+<title>Library and Object Essentials</title>
+<shortdesc>Understand how the Author-it Library stores and organizes content. Learn about object-oriented authoring, object properties, and how to manage library objects.</shortdesc>
+
+<conbody>
+
+<section>
+<title>Author-it Library</title>
+
+<p>The <b>Library</b> in Author-it functions as the central database for all content. It’s the foundation of CCMS, housing everything authors create and reuse.</p>
+
+<ul>
+<li>It is equivalent to a <b>database</b> that supports the Author-it application.</li>
+<li>Users interact only with the <b>front-end library interface</b>, not the actual database tables.</li>
+<li>It serves as the <b>main content container</b> for most authoring and publishing activities.</li>
+</ul>
+
+<p><b>Types of Databases</b></p>
+<p>Author-it supports two database types:</p>
+<ol>
+<li><b>SQL Server Library</b>- Recommended for production.
+<ul>
+<li>Scalable, stable, and supports enterprise-level backups.</li>
+</ul>
+</li>
+<li><b>Jet Library</b>- A simplified Access database.
+<ul>
+<li>Suitable for <b>training</b> or <b>testing</b>, limited to 2 GB, and not recommended for production.</li>
+</ul>
+</li>
+</ol>
+
+<note>Author-it is compatible with Microsoft SQL Server, but not with Oracle databases.</note>
+
+<p><b>What the Library Holds</b></p>
+<p>The Library stores most of the project data, but some elements are maintained externally:</p>
+
+<ul>
+<li><b>Publishing templates</b> (.dot, .html)</li>
+<li><b>Graphics</b> (can be stored externally for shared access)</li>
+</ul>
+
+<p><b>Number of Libraries</b></p>
+<ul>
+<li>Maintain <b>one production library </b>for collaboration and content reuse.</li>
+<li>Optionally create a <b>test or sandbox library</b> (Jet or restored backup) for safe experimentation and template testing.</li>
+</ul>
+
+</section>
+
+<section>
+<title>Working with Library Objects</title>
+
+<p>Author-it’s strength lies in its <b>object-oriented structure</b>, where content is modular, reusable, and centrally managed.</p>
+
+<p><b>What is an Object?</b></p>
+<p>A <b>document</b> (e.g., user guide) is broken down into smaller, self-contained components called <b>objects</b>, such as:</p>
+<ul>
+<li>Title Page</li>
+<li>Table of Contents</li>
+<li>Topics</li>
+<li>Graphics</li>
+<li>Index</li>
+</ul>
+
+<p><b>Object Reuse (Single-Source Advantage)</b></p>
+<ul>
+<li>Objects can be reused across multiple documents.</li>
+<li>Updating one object automatically updates all publications that use it.</li>
+<li>Each object type has a unique icon, helping users identify them visually.</li>
+</ul>
+
+<p><b>Object Relationships and Publishing</b></p>
+<ul>
+<li><b>Book Object:</b> A container that references other objects (topics, graphics, etc.) to form a complete publication.</li>
+<li><b>Single-Sourcing:</b> One book can output to formats like Word, PDF, HTML, Help, XML, or DITA.</li>
+<li>When published, all related objects are rendered into the final document.</li>
+</ul>
+</section>
+
+<section>
+<title>Object Properties and Identification</title>
+<p>Every object in Author-it shares universal properties that help maintain organization, control, and consistency.</p>
+
+<image href="images/img3.png" width="600" height="300" alt="Author-it Object Dialog Box"/>
+<p outputclass="figure-caption"><i>Figure 3: The object properties dialog</i></p>
+
+<ol>
+<li><b>Object Code</b>
+<ul>
+<li>A unique, auto-incremented identifier for each object.</li>
+<li>Never reused after removal and helpful for searching or linking.</li>
+</ul>
+</li>
+<li><b>Object Name (Description)</b>
+<ul>
+<li>The internal name required for saving objects.</li>
+<li>Not visible in published outputs.</li>
+<li>Teams can define naming conventions for consistency.</li>
+</ul>
+</li>
+<li><b>Object Template</b>
+<ul>
+<li>Created by Designers to enforce layout and styling rules.</li>
+<li>Assigns predefined properties automatically for consistency.</li>
+<li>Can be reassigned later if needed.</li>
+</ul>
+</li>
+<li><b>Output Checkboxes</b>
+<ul>
+<li>Defines which outputs the object will publish to:
+<ul>
+<li>Print (Word/PDF)</li>
+<li>Help (CHM/Help systems)</li>
+<li>Web (HTML/XHTML)</li>
+</ul>
+</li>
+<li>Disabling an output excludes it from that publication type.</li>
+</ul>
+</li>
+<li><b>Version Control &amp; Edit History</b>
+<ul>
+<li>Tracks version and revision history.</li>
+<li>Allows authors to review changes or revert to previous versions.</li>
+</ul>
+</li>
+</ol>
+</section>
+
+<section>
+<title>Viewing and Managing Objects</title>
+
+<p>The <b>Objects List Area</b> provides a clear, navigable view of all objects within a selected folder.</p>
+
+<image href="images/img4.png" width="600" height="300" alt="Author-it UI icons"/>
+<p outputclass="figure-caption"><i>Figure 4: Author-it UI icons with their names for quick identification</i></p>
+
+<p><b>Object List Overview</b></p>
+<ul>
+<li>Displays all objects within the selected folder.</li>
+<li>Each object has a distinctive icon (Book, Topic, File, etc.).</li>
+<li>Icons can be cross-referenced using the <b>Author or Design Ribbons</b> for easier identification.</li>
+</ul>
+
+<p><b>Object Home Address</b></p>
+<ul>
+<li>Every object resides in one folder - its “home address.”</li>
+<li>Moving an object to another folder changes its location but doesn’t affect relationships with books or topics.</li>
+</ul>
+
+<p><b>Object Preview Feature</b></p>
+<ul>
+<li>The preview pane allows a quick-look of the object content without fully displaying it.</li>
+<li>Users can switch between Print, Help, and Web tabs to preview format-specific variations.</li>
+</ul>
+</section>
+
+</conbody>
+</concept>
