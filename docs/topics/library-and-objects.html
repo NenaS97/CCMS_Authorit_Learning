@@ -1,0 +1,162 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2025"><meta name="generator" content="DITA-OT"><meta name="description" content="Understand how the Author-it Library stores and organizes content. Learn about object-oriented authoring, object properties, and how to manage library objects."><title>Library and Object Essentials</title><link rel="stylesheet" type="text/css" href="../../styles/custom.css"></head><body id="library_objects"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+
+<h1 class="title topictitle1" id="ariaid-title1">Library and Object Essentials</h1>
+
+
+<div class="body conbody"><p class="shortdesc">Understand how the Author-it Library stores and organizes content. Learn about object-oriented authoring, object properties, and how to manage library objects.</p>
+
+<section class="section"><h2 class="title sectiontitle">Author-it Library</h2>
+
+
+<p class="p">The <strong class="ph b">Library</strong> in Author-it functions as the central database for all content. It’s the foundation of CCMS, housing everything authors create and reuse.</p>
+
+<ul class="ul">
+<li class="li">It is equivalent to a <strong class="ph b">database</strong> that supports the Author-it application.</li>
+<li class="li">Users interact only with the <strong class="ph b">front-end library interface</strong>, not the actual database tables.</li>
+<li class="li">It serves as the <strong class="ph b">main content container</strong> for most authoring and publishing activities.</li>
+</ul>
+
+<p class="p"><strong class="ph b">Types of Databases</strong></p>
+<p class="p">Author-it supports two database types:</p>
+<ol class="ol">
+<li class="li"><strong class="ph b">SQL Server Library</strong>- Recommended for production.
+<ul class="ul">
+<li class="li">Scalable, stable, and supports enterprise-level backups.</li>
+</ul>
+</li>
+<li class="li"><strong class="ph b">Jet Library</strong>- A simplified Access database.
+<ul class="ul">
+<li class="li">Suitable for <strong class="ph b">training</strong> or <strong class="ph b">testing</strong>, limited to 2 GB, and not recommended for production.</li>
+</ul>
+</li>
+</ol>
+
+<div class="note note note_note"><span class="note__title">Note:</span> <div class="note__body">Author-it is compatible with Microsoft SQL Server, but not with Oracle databases.</div></div>
+
+<p class="p"><strong class="ph b">What the Library Holds</strong></p>
+<p class="p">The Library stores most of the project data, but some elements are maintained externally:</p>
+
+<ul class="ul">
+<li class="li"><strong class="ph b">Publishing templates</strong> (.dot, .html)</li>
+<li class="li"><strong class="ph b">Graphics</strong> (can be stored externally for shared access)</li>
+</ul>
+
+<p class="p"><strong class="ph b">Number of Libraries</strong></p>
+<ul class="ul">
+<li class="li">Maintain <strong class="ph b">one production library </strong>for collaboration and content reuse.</li>
+<li class="li">Optionally create a <strong class="ph b">test or sandbox library</strong> (Jet or restored backup) for safe experimentation and template testing.</li>
+</ul>
+
+</section>
+
+<section class="section"><h2 class="title sectiontitle">Working with Library Objects</h2>
+
+
+<p class="p">Author-it’s strength lies in its <strong class="ph b">object-oriented structure</strong>, where content is modular, reusable, and centrally managed.</p>
+
+<p class="p"><strong class="ph b">What is an Object?</strong></p>
+<p class="p">A <strong class="ph b">document</strong> (e.g., user guide) is broken down into smaller, self-contained components called <strong class="ph b">objects</strong>, such as:</p>
+<ul class="ul">
+<li class="li">Title Page</li>
+<li class="li">Table of Contents</li>
+<li class="li">Topics</li>
+<li class="li">Graphics</li>
+<li class="li">Index</li>
+</ul>
+
+<p class="p"><strong class="ph b">Object Reuse (Single-Source Advantage)</strong></p>
+<ul class="ul">
+<li class="li">Objects can be reused across multiple documents.</li>
+<li class="li">Updating one object automatically updates all publications that use it.</li>
+<li class="li">Each object type has a unique icon, helping users identify them visually.</li>
+</ul>
+
+<p class="p"><strong class="ph b">Object Relationships and Publishing</strong></p>
+<ul class="ul">
+<li class="li"><strong class="ph b">Book Object:</strong> A container that references other objects (topics, graphics, etc.) to form a complete publication.</li>
+<li class="li"><strong class="ph b">Single-Sourcing:</strong> One book can output to formats like Word, PDF, HTML, Help, XML, or DITA.</li>
+<li class="li">When published, all related objects are rendered into the final document.</li>
+</ul>
+</section>
+
+<section class="section"><h2 class="title sectiontitle">Object Properties and Identification</h2>
+
+<p class="p">Every object in Author-it shares universal properties that help maintain organization, control, and consistency.</p>
+
+<img class="image" src="images/img3.png" width="600" height="300" alt="Author-it Object Dialog Box">
+<p class="p figure-caption"><em class="ph i">Figure 3: The object properties dialog</em></p>
+
+<ol class="ol">
+<li class="li"><strong class="ph b">Object Code</strong>
+<ul class="ul">
+<li class="li">A unique, auto-incremented identifier for each object.</li>
+<li class="li">Never reused after removal and helpful for searching or linking.</li>
+</ul>
+</li>
+<li class="li"><strong class="ph b">Object Name (Description)</strong>
+<ul class="ul">
+<li class="li">The internal name required for saving objects.</li>
+<li class="li">Not visible in published outputs.</li>
+<li class="li">Teams can define naming conventions for consistency.</li>
+</ul>
+</li>
+<li class="li"><strong class="ph b">Object Template</strong>
+<ul class="ul">
+<li class="li">Created by Designers to enforce layout and styling rules.</li>
+<li class="li">Assigns predefined properties automatically for consistency.</li>
+<li class="li">Can be reassigned later if needed.</li>
+</ul>
+</li>
+<li class="li"><strong class="ph b">Output Checkboxes</strong>
+<ul class="ul">
+<li class="li">Defines which outputs the object will publish to:
+<ul class="ul">
+<li class="li">Print (Word/PDF)</li>
+<li class="li">Help (CHM/Help systems)</li>
+<li class="li">Web (HTML/XHTML)</li>
+</ul>
+</li>
+<li class="li">Disabling an output excludes it from that publication type.</li>
+</ul>
+</li>
+<li class="li"><strong class="ph b">Version Control &amp; Edit History</strong>
+<ul class="ul">
+<li class="li">Tracks version and revision history.</li>
+<li class="li">Allows authors to review changes or revert to previous versions.</li>
+</ul>
+</li>
+</ol>
+</section>
+
+<section class="section"><h2 class="title sectiontitle">Viewing and Managing Objects</h2>
+
+
+<p class="p">The <strong class="ph b">Objects List Area</strong> provides a clear, navigable view of all objects within a selected folder.</p>
+
+<img class="image" src="images/img4.png" width="600" height="300" alt="Author-it UI icons">
+<p class="p figure-caption"><em class="ph i">Figure 4: Author-it UI icons with their names for quick identification</em></p>
+
+<p class="p"><strong class="ph b">Object List Overview</strong></p>
+<ul class="ul">
+<li class="li">Displays all objects within the selected folder.</li>
+<li class="li">Each object has a distinctive icon (Book, Topic, File, etc.).</li>
+<li class="li">Icons can be cross-referenced using the <strong class="ph b">Author or Design Ribbons</strong> for easier identification.</li>
+</ul>
+
+<p class="p"><strong class="ph b">Object Home Address</strong></p>
+<ul class="ul">
+<li class="li">Every object resides in one folder - its “home address.”</li>
+<li class="li">Moving an object to another folder changes its location but doesn’t affect relationships with books or topics.</li>
+</ul>
+
+<p class="p"><strong class="ph b">Object Preview Feature</strong></p>
+<ul class="ul">
+<li class="li">The preview pane allows a quick-look of the object content without fully displaying it.</li>
+<li class="li">Users can switch between Print, Help, and Web tabs to preview format-specific variations.</li>
+</ul>
+</section>
+
+</div>
+</article></main></body></html>

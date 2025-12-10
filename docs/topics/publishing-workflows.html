@@ -1,0 +1,100 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2025"><meta name="generator" content="DITA-OT"><meta name="description" content="This section explains how Author-it manages multi-format publishing through Print, Help, and Web output categories, and how the Publishing Pane can be used to publish multiple books in a batch."><title>Publishing Outputs</title><link rel="stylesheet" type="text/css" href="../../styles/custom.css"></head><body id="publishing"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+
+<h1 class="title topictitle1" id="ariaid-title1">Publishing Outputs</h1>
+
+
+<div class="body conbody"><p class="shortdesc">This section explains how Author-it manages multi-format publishing through Print, Help, and Web output categories, and how the Publishing Pane can be used to publish multiple books in a batch.</p>
+<section class="section"><h2 class="title sectiontitle">Understanding Output Categories (Print, Help, Web)</h2>
+
+<p class="p">Every object in Author-it contains three dedicated tabs - <strong class="ph b">Print, Help, and Web</strong>, that determine how that object behaves when published to different output formats. These tabs are central to Author-it’s single-sourcing model.</p>
+
+<img class="image" src="images/img12.png" width="600" height="300" alt="Types of Output">
+<p class="p figure-caption"><em class="ph i">Figure 12: The three main output categories in Author-it</em></p>
+
+<div class="sectiondiv">
+<p class="p"><strong class="ph b">Print Tab</strong></p>
+<p class="p">Used when publishing to:</p>
+<ul class="ul">
+<li class="li">Microsoft Word</li>
+<li class="li">PDF</li>
+</ul>
+<p class="p">Key properties managed here include:</p>
+<ul class="ul">
+<li class="li">Assigned heading style</li>
+<li class="li">Chapter start rules or section breaks</li>
+<li class="li">Assigned Media Object controlling page layout</li>
+</ul>
+<p class="p">These settings determine how the content will appear in printed or PDF-based publications.</p>
+</div>
+
+<div class="sectiondiv">
+<p class="p"><strong class="ph b">Help Tab</strong></p>
+<p class="p">Used for electronic help systems.</p>
+<p class="p">This tab manages properties specific to Help outputs, such as:</p>
+<ul class="ul">
+<li class="li"><strong class="ph b">Context Strings</strong></li>
+<li class="li"><strong class="ph b">Context IDs</strong></li>
+</ul>
+<p class="p">These are required for context-sensitive help but do not affect print or web output.</p>
+</div>
+
+<div class="sectiondiv">
+<p class="p"><strong class="ph b">Web Tab</strong></p>
+<p class="p">Used for:</p>
+<ul class="ul">
+<li class="li">HTML</li>
+<li class="li">XHTML</li>
+<li class="li">Other web-based formats</li>
+</ul>
+<p class="p">This tab includes properties required for web rendering and navigation.</p>
+</div>
+
+<div class="sectiondiv">
+<p class="p"><strong class="ph b">How Single-Sourcing Works</strong></p>
+<p class="p">Author-it allows a <em class="ph i">single content object</em> to be published in multiple formats with different publishing rules applied automatically:</p>
+<ul class="ul">
+<li class="li"><strong class="ph b">Output Checkboxes</strong> determine whether the object is eligible for Print, Help, or Web publishing.</li>
+<li class="li">During publishing, Author-it reads the corresponding tab (Print/Help/Web) and applies its properties to generate the correct formatted output.</li>
+</ul>
+<p class="p">This lets users reuse the same Topic or Book object across all outputs without duplicating content.</p>
+</div>
+</section>
+
+<section class="section"><h2 class="title sectiontitle">Publishing Pane (Batch Publishing)</h2>
+
+<p class="p">The <strong class="ph b">Publishing Pane</strong> provides a more flexible and powerful way to publish content compared to the Publishing Ribbon.</p>
+
+<img class="image" src="images/img13.png" width="600" height="300" alt="How Batch Publishing Works">
+<p class="p figure-caption"><em class="ph i">Figure 13: A visual guide on how to publish multiple books at the same time</em></p>
+
+<p class="p"><strong class="ph b">Purpose and Key Difference</strong></p>
+<ul class="ul">
+<li class="li">The <strong class="ph b">Publishing Ribbon</strong> can publish only one book at a time.</li>
+<li class="li">The <strong class="ph b">Publishing Pane</strong> can publish <strong class="ph b">multiple books sequentially</strong> by assembling them into a batch.</li>
+</ul>
+<p class="p"><strong class="ph b">Creating a Publishing Batch</strong></p>
+<ol class="ol">
+<li class="li">Select the desired output format (e.g., PDF, HTML).</li>
+<li class="li">Choose the books for publishing.</li>
+<li class="li">Click <strong class="ph b">Add to Batch</strong> for each book.</li>
+<li class="li">Once all books are added, click <strong class="ph b">Submit Batch</strong> to publish them one after another.</li>
+</ol>
+<p class="p">This is particularly useful when:</p>
+<ul class="ul">
+<li class="li">Publishing multiple versions of documentation,</li>
+<li class="li">Preparing outputs for multiple products,</li>
+<li class="li">Or managing larger publication cycles.</li>
+</ul>
+<p class="p"><strong class="ph b">Additional Features</strong></p>
+<p class="p">The Publishing Pane may display optional sections related to:</p>
+<ul class="ul">
+<li class="li">Tasks</li>
+<li class="li">Projects</li>
+</ul>
+<p class="p">These belong to the <strong class="ph b">Project Manager</strong> module (a separately purchased add-on).
+If an environment doesn’t use this module, these sections can be disabled.</p>
+</section>
+</div>
+</article></main></body></html>
