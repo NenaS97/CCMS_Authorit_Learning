@@ -56,7 +56,7 @@ For styling, a custom CSS file was created separately and applied manually to th
 - Styling is intentionally minimal so readers can focus on the content rather than formatting.  
 - File paths for CSS links were corrected manually in each topic’s HTML output after the initial GitHub Pages build failed due to invalid paths.
 
-## GitHub and Publishing Notes
+## GitHub Publishing
 The project is hosted in this GitHub repository using the standard Git workflow:
 
 ```c#
